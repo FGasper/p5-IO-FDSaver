@@ -23,9 +23,6 @@ WriteMakefile1(
     ABSTRACT_FROM => 'lib/IO/FDSaver.pm',
     LICENSE      => 'perl',
 
-    # Because of X::Tiny
-    MIN_PERL_VERSION => 5.010000,
-
     PREREQ_PM    => { },
 
     TEST_REQUIRES => {
