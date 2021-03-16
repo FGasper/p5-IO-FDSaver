@@ -23,6 +23,9 @@ WriteMakefile1(
     ABSTRACT_FROM => 'lib/IO/FDSaver.pm',
     LICENSE      => 'perl',
 
+    # 5.8 fails because of “Invalid argument” for some reason.
+    MIN_PERL_VERSION => 5.010000,
+
     PREREQ_PM    => { },
 
     TEST_REQUIRES => {
