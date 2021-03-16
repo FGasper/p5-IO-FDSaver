@@ -1,0 +1,6 @@
+LICENSE
+MANIFEST
+Makefile.PL
+README.md
+lib/IO/FDSaver.pm
+t/usage.t
